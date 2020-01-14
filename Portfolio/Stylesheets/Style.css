@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*
+    background-color: rgb(143, 143, 143);
+    */
+    /*
+    https://i.imgur.com/NxpkqUP.jpg <- Kahvipöytä
+
+    https://i.imgur.com/4aQYRxj.jpg <- Lamput
+
+    https://i.imgur.com/YljrlqP.jpg <- Tuoli
+
+    https://i.imgur.com/HroAjSC.jpg <- Pöytä
+    */
+    background-image: url("https://i.imgur.com/HroAjSC.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #011014;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    line-height: normal;
+    margin: 0;
+    
+}
+.title{
+    padding: 30px;
+    padding-top: 60px;
+    color: black;
+    /*
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    */
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+.link-1{
+      
+    background-image: url("https://i.imgur.com/PYw1hdX.jpg");
+    
+    background-color: rgba(73, 73, 73, 0.479);
+    
+    color: #fff;
+    margin-top: 10px;
+    border-width: 5px;
+    border-style: double;
+    padding: 30px;
+    margin-top: 20px;
+    
+    width: 20%;
+}
+
+.resume{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.socialbox-1{
+    /*
+    background-image: url("https://i.imgur.com/PYw1hdX.jpg");
+    
+    */background-color: rgba(82, 229, 255, 0.3);
+    border: 5px rgb(0, 0, 0) solid;
+    border-width: 3px;
+    border-bottom-width: 3px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+
+    width: 30%;
+    height: 80px;
+}
+
+.socialbox-1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.socialcategory{
+    display: flex;
+    flex-wrap: row;
+}
+
+
+.picture-1{
+    display: flex;
+    flex-wrap: row;
+    position: relative;
+    justify-content: center;
+    margin: 12px;
+        
+}
+
+.player{
+    margin-top: 17px;
+    padding: 30px;
+    padding-left: 70px;
+}
+
+.box-1{
+    background-color: rgba(73, 73, 73, 0.479);
+    color: rgba(255, 255, 255, 1);
+
+    border: 5px rgb(0, 0, 0) solid;
+    border-width: 3px;
+    border-bottom-width: 3px;
+    border-top-style: ridge;
+
+    padding: 30px;
+    margin-top: 50px;
+    
+}
+
+.box-1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 1px;
+}
+
+.laatikosto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-2{
+
+    background-color: rgba(99, 99, 99, 0.5);
+    color: #fff;
+
+    border: 5px rgb(0, 0, 41) solid;
+    border-width: 3px;
+    border-bottom-width: 3px;
+    padding: 30px;
+    margin-top: 20px;
+    
+}
+
+.box-2 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 1px;
+}
+
+.underline{
+    background-image: url("https://i.imgur.com/PYw1hdX.jpg");
+    border: 5px rgb(0, 0, 0) solid;
+    color: white;
+
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 70px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.link-1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 1px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: black;
+}
+
+
+.container{
+    width: 50%;
+    margin: auto;
+}
